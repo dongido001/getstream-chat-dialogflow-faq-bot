@@ -3,29 +3,38 @@
 ![Sample working app](./screenshots/app.gif "Sample working app")
 
 ## Project setup
+Clone the repository and install dependencies:
+
+- clone the repository
 ```
-yarn install
+git clone git@github.com:dongido001/getstream-chat-dialogflow-faq-bot.git
 ```
 
-### Compiles and hot-reloads for development
+- change directory to the project directory
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+cd getstream-chat-dialogflow-faq-bot
 ```
 
-### Run your tests
+- Install dependencies
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Create an environment keys
+
+```
+cp .env.exaple .env
+```
+
+- Update with your Getstream and Dialogflow Keys
+
+```
+VUE_APP_PORT=3000
+VUE_APP_SERVER=http://localhost:3000
+
+VUE_APP_KEY=<YOUR GETSTREAM CHAT KEY>
+APP_SECRET=<YOUR GETSTREAM CHAT SECRET>
+
+DIALOGFLOW_PROJECT_ID=<YOUR DIALOGFLOW PROJECT ID>
+GOOGLE_APPLICATION_CREDENTIALS=<YOUR DIALOGFLOW SERVICE KEY FILE URL>
+```
