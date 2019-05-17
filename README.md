@@ -1,4 +1,6 @@
-# faqx
+# Adding Chatbots to your GetStream chat app using Dialogflow
+
+![Sample working app](./screenshots/app.gif "Sample working app")
 
 ## Project setup
 ```
