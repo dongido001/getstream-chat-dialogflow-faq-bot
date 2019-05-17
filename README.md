@@ -1,5 +1,6 @@
 # Adding Chatbots to your GetStream chat app using Dialogflow
 
+You can readmore on how it was built [here](https://getstream.io/)
 ![Sample working app](./screenshots/app.gif "Sample working app")
 
 ## Project setup
